@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Zunexa Web">
+  <defs>
+    <linearGradient id="z" x1="10" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20A4FF"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="10" fill="#090B1F"/>
+  <path d="M17 16h32v7L28 42h22v7H15v-7l21-19H17v-7Z" fill="url(#z)"/>
+</svg>
