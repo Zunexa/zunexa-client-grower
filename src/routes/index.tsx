@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useMemo, useState, type FormEvent } from "react";
+import { useMemo, useState, type FormEvent, type ReactNode } from "react";
 import {
   ArrowRight,
   CheckCircle2,
@@ -596,7 +596,7 @@ function SectionHeader({ eyebrow, title, description }: { eyebrow: string; title
   );
 }
 
-function FormField({ label, htmlFor, children }: { label: string; htmlFor: string; children: React.ReactNode }) {
+function FormField({ label, htmlFor, children }: { label: string; htmlFor: string; children: ReactNode }) {
   return (
     <div className="grid gap-2">
       <Label htmlFor={htmlFor} className="text-sm font-semibold text-foreground">
